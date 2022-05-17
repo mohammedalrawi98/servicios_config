@@ -18,3 +18,9 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant-path-matcher
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${hosteureka}:8761/eureka
+  instance:
+    hostname: ${hostreal}      
