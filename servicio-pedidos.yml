@@ -18,6 +18,8 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant-path-matcher
+  jackson:
+    time-zone: Europe/Paris
 eureka:
   client:
     service-url:
